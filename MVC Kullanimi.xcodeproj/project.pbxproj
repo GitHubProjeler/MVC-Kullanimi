@@ -12,6 +12,7 @@
 		ACED534920B6C86D001A6830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACED534720B6C86D001A6830 /* Main.storyboard */; };
 		ACED534B20B6C86D001A6830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACED534A20B6C86D001A6830 /* Assets.xcassets */; };
 		ACED534E20B6C86D001A6830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACED534C20B6C86D001A6830 /* LaunchScreen.storyboard */; };
+		ACED535920B6C91C001A6830 /* MoneyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED535820B6C91C001A6830 /* MoneyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ACED534A20B6C86D001A6830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACED534D20B6C86D001A6830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACED534F20B6C86D001A6830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACED535820B6C91C001A6830 /* MoneyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		ACED534220B6C86D001A6830 /* MVC Kullanimi */ = {
 			isa = PBXGroup;
 			children = (
+				ACED535720B6C8AD001A6830 /* View */,
+				ACED535620B6C8A3001A6830 /* Controller */,
+				ACED535520B6C877001A6830 /* Model */,
 				ACED534320B6C86D001A6830 /* AppDelegate.swift */,
-				ACED534520B6C86D001A6830 /* ViewController.swift */,
 				ACED534720B6C86D001A6830 /* Main.storyboard */,
 				ACED534A20B6C86D001A6830 /* Assets.xcassets */,
 				ACED534C20B6C86D001A6830 /* LaunchScreen.storyboard */,
 				ACED534F20B6C86D001A6830 /* Info.plist */,
 			);
 			path = "MVC Kullanimi";
+			sourceTree = "<group>";
+		};
+		ACED535520B6C877001A6830 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACED535820B6C91C001A6830 /* MoneyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACED535620B6C8A3001A6830 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACED534520B6C86D001A6830 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ACED535720B6C8AD001A6830 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACED535920B6C91C001A6830 /* MoneyModel.swift in Sources */,
 				ACED534620B6C86D001A6830 /* ViewController.swift in Sources */,
 				ACED534420B6C86D001A6830 /* AppDelegate.swift in Sources */,
 			);
